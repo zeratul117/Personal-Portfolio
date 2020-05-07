@@ -9,7 +9,7 @@
       <nav class="top-nav">
         <ul class="nav-list">
           <li>
-            <a href="HellowWordl.vue" @click="goToMenu" class="nav-link">Home</a>
+            <a href="" @click.prevent="goToMenu" class="nav-link">Home</a>
           </li>
           <li>
             <a @click="goToMenu" class="nav-link">About</a>
@@ -30,7 +30,7 @@
       </nav>
       <div class="landing-text">
         <h1>Luis Belis</h1>
-        <h6>Web Developer</h6>
+        <h6>Software Engineer | Full-Stack Developer</h6>
       </div>
     </header>
 
@@ -41,24 +41,31 @@
         </div>
         <div class="about-details" data-aos="fade-left" data-aos-delay="200">
           <div class="about-heading">
+            <h4>A little</h4>
             <h1>About</h1>
             <h6>Myself</h6>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quidem! 
-            Tenetur at, est ratione, dignissimos, pariatur nisi delectus aut necessitatibus 
-            in quidem earum. Aliquam quae fugiat autem alias commodi voluptatibus?
+            I am a self-motivated and hard-working engineer who is passionate and committed to learn
+            new technologies to meet requirements. I do not believe we should stick to one way to 
+            solve a problem. As engineers, we must be ready to take on the best solution so we can
+            guarantee the customer satisfaction.
           </p>
           <div class="social-media">
           <ul class="nav-list">
             <li>
-              <a href="#" class="icon-link">
+              <a target="_blank" href="https://www.facebook.com/luisalfredo.belisdilone" class="icon-link">
                 <i class="fab fa-facebook-square"></i>
               </a>
             </li>
             <li>
-              <a href="#" class="icon-link">
-                <i class="fab fa-twitter-square"></i>
+              <a target="_blank" href="https://github.com/zeratul117" class="icon-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/luis-belis-755426186/" class="icon-link">
+                <i class="fab fa-linkedin"></i>
               </a>
             </li>
           </ul>
@@ -70,38 +77,37 @@
     <section class="services" id="services">
       <div class="containder">
         <div class="section-heading">
-          <h1>Services</h1>
+          <h1>Skills</h1>
           <h6>What I can do for you</h6>
         </div>
         <div class="my-skills" data-aos="flip-left" data-aos-delay="200">
           <div class="skill">
             <div class="icon-container">
-              <i class="fas fa-layer-group"></i>
-            </div>
-            <h1>Web Design</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="skill">
-            <div class="icon-container">
-              <i class="fas fa-code"></i>
+              <i class="fab fa-js-square"></i>
             </div>
             <h1>Web Development</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <i class="fas fa-hand-holding"></i>&nbsp;JavaScript and some of its frameworks (Angular, Vue.js) <br>
+              <i class="fas fa-hand-holding"></i>&nbsp;Designer tools (CSS, NG-Zorro, Bootstrap, Vutify) <br>
             </p>
           </div>
           <div class="skill">
             <div class="icon-container">
-              <i class="fas fa-chart-bar"></i>
+              <i class="fas fa-database"></i>
             </div>
-            <h1>Product Strategy</h1>
+            <h1>Database</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <i class="fas fa-hand-holding"></i>&nbsp;Good experience with Transact-SQL <br>
+              <i class="fas fa-hand-holding"></i>&nbsp;Capable of creating stored procedures
+            </p>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h1>Backend experience</h1>
+            <p>
+              <i class="fas fa-hand-holding"></i>&nbsp;C# language with ASP.NET/ASP.NET Core <br>
             </p>
           </div>
         </div>
