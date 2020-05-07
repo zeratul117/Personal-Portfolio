@@ -15,7 +15,8 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background: url('https://images.wallpaperscraft.com/image/blue_line_oval_background_65989_1920x1080.jpg') no-repeat center fixed;
+    background: url('https://image.freepik.com/free-vector/abstract-black-tech-fold-shadow-background_1408-563.jpg') no-repeat center fixed;
+    image-rendering: -webkit-optimize-contrast;
     background-size: cover;
 }
 section {
@@ -32,6 +33,7 @@ p {
 }
 
 img {
+    border-radius: 50%;
     width: 100%;
 }
 /*End global*/
@@ -234,7 +236,14 @@ li {
     opacity: .3;
 }
 
+.about-heading h4 {
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    opacity: .3;
+}
+
 .about-heading h6 {
+    padding-top: 4.7rem;
     font-size: 2rem;
     opacity: .3;
 }
@@ -246,6 +255,11 @@ li {
 
 .about-details {
     flex: 1;
+}
+
+.about-details p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .social-media {
@@ -260,11 +274,16 @@ li {
     color: #4267b2;
 }
 
-.fa-twitter-square:hover {
-    color: #38a1f3;
+.fa-linkedin:hover {
+    color: #007bb6;
+}
+
+
+.fa-github:hover {
+    color: #f05033;
 }
   /*End About*/
-
+/* background: linear-gradient(to bottom, #6c49cb, #fbe067);
 /*Start Services*/
 .services {
     width: 90%;
@@ -287,6 +306,11 @@ li {
     padding: 2rem -2px 2rem 0;
 }
 
+.skill p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .skill h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -297,7 +321,7 @@ li {
     width: 10rem;
     height: 10rem;
     border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    background-color: #3f4fe6;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
@@ -308,6 +332,34 @@ li {
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
+}
+
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #64C7CC;
+  margin: 86.60px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
 }
 
 /*End Services*/
@@ -511,7 +563,7 @@ input[type="submit"]:hover {
 
 /*media queries*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .landing-text h1 {
         font-size: 15rem;
     }
@@ -563,7 +615,7 @@ input[type="submit"]:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .menu-toggler {
         top: 2rem;
         right: 2rem;
