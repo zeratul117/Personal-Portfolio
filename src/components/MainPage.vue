@@ -232,7 +232,7 @@
 </template>
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'MainPage',
   data() {
     return {
       topNav: document.getElementsByClassName('top-nav'),
