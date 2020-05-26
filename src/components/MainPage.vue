@@ -87,7 +87,7 @@
             </div>
             <h1>Web Development</h1>
             <p>
-              <i class="fas fa-hand-holding"></i>&nbsp;JavaScript and some of its frameworks (Angular, Vue.js) <br>
+              <i class="fas fa-hand-holding"></i>&nbsp;JavaScript and some of its frameworks (Angular, Vue.js, React) <br>
               <i class="fas fa-hand-holding"></i>&nbsp;Designer tools (CSS, NG-Zorro, Bootstrap, Vutify) <br>
             </p>
           </div>
@@ -121,19 +121,18 @@
         </div>
         <div class="portfolio-item">
           <div class="portfolio-img has-margin-right" data-aos="zoom-in-left" data-aos-delay="200">
-            <img src="../images/profile.jpg" alt="">
+            <img src="../images/project1.jpg" alt="">
           </div>
           <div class="portfolio-description" data-aos="zoom-in-right" data-aos-delay="200">
             <h6>Web Development</h6>
-            <h1>Blog Website</h1>
+            <h1>Todo's List</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              A basic React Todo's list, with some CSS added to it.
             </p>
-            <a href="#" class="cta">View Details</a>
+            <a href="https://github.com/zeratul117/ToDoList"  target="_blank" class="cta">View Details</a>
           </div>
         </div>
-        <div class="portfolio-item">
+        <!-- <div class="portfolio-item">
           <div class="portfolio-description" data-aos="zoom-in-left" data-aos-delay="200">
             <h6>Web Design</h6>
             <h1>Product Layout</h1>
@@ -194,7 +193,7 @@
               </p>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </section>
 
